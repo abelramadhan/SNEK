@@ -6,6 +6,7 @@ body {
     align-items: center;
     font-family: 'Press Start 2P', cursive;
     color: white;
+    width: 100%;
 }
 
 #canvas {
@@ -78,8 +79,8 @@ h1 {
 }
 
 .ctrlbtn {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     color: #1f1f1f;
     background-color: white;
     border: none;
@@ -92,6 +93,8 @@ h1 {
 @media only screen and (max-width: 600px) {
     .control {
         visibility: visible;
+        position: relative;
+        top: -30px;
     }
 
     .con {
