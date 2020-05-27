@@ -31,8 +31,16 @@ function direction(event) {
     } 
 }
 
-function directionbtn(string) {
-    d=string;
+function directionbtn(dirkey) {
+    if (dirkey==1) {
+        d = "up";
+    } else if (dirkey==2) {
+        d = "left";
+    } else if (dirkey==3) {
+        d = "down";
+    } else if (dirkey==4) {
+        d = "right";
+    } 
 }
 
 
