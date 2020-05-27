@@ -53,7 +53,7 @@ h1 {
     align-items: center;
 }
 
-button {
+#restartbtn {
     font-family: 'Press Start 2P', cursive;
     color: #1f1f1f;
     border: none;
@@ -62,4 +62,38 @@ button {
     padding: 15px 20px;
     margin-top: 20px;
     visibility: hidden;
+}
+
+.control {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.downsec {
+    display: flex;
+    justify-content: center;
+}
+
+.ctrlbtn {
+    width: 40px;
+    height: 40px;
+    color: #1f1f1f;
+    background-color: white;
+    border: none;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+
+@media (max-width: 600px) {
+    .control {
+        visibility: visible;
+    }
+
+    .con {
+        visibility: hidden;
+    }
 }

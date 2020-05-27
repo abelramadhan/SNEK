@@ -31,6 +31,10 @@ function direction(event) {
     } 
 }
 
+function directionbtn(string) {
+    d=string;
+}
+
 
 function draw() {
    
