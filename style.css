@@ -7,6 +7,7 @@ body {
     font-family: 'Press Start 2P', cursive;
     color: white;
     width: 100%;
+    overflow: hidden;
 }
 
 #canvas {
@@ -22,36 +23,6 @@ h1 {
     font-size: 15px;
     text-align: center;
     margin-bottom: 20px;
-}
-
-.con {
-    display: flex;
-    justify-content: center;
-    align-items: center;;
-    font-size: 10px;
-    margin-top: 20px;
-}
-
-.snek {
-    width: 20px;
-    height: 20px;
-    margin: 0 10px;
-    background-color: white;
-    border: 1px solid #1f1f1f;
-}
-
-.food {
-    width: 20px;
-    height: 20px;
-    margin: 0 10px;
-    background-color: 1f1f1f;
-    border: 1px solid rgb(182, 182, 182);
-}
-
-.con1 {
-    margin: 0 20px;
-    display: flex;
-    align-items: center;
 }
 
 #restartbtn {
@@ -71,6 +42,8 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 50%;
 }
 
 .downsec {
@@ -93,8 +66,7 @@ h1 {
 @media only screen and (max-width: 600px) {
     .control {
         visibility: visible;
-        position: relative;
-        top: -30px;
+        top: 570px;
     }
 
     .con {
