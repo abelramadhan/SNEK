@@ -72,4 +72,9 @@ h1 {
     .con {
         visibility: hidden;
     }
+
+    #restartbtn {
+        position: absolute;
+        top: 480px;
+    }
 }

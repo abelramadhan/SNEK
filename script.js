@@ -32,13 +32,13 @@ function direction(event) {
 }
 
 function directionbtn(dirkey) {
-    if (dirkey==1) {
+    if (dirkey==1 && d != "down") {
         d = "up";
-    } else if (dirkey==2) {
+    } else if (dirkey==2 && d != "right") {
         d = "left";
-    } else if (dirkey==3) {
+    } else if (dirkey==3 && d != "up") {
         d = "down";
-    } else if (dirkey==4) {
+    } else if (dirkey==4 && d != "left") {
         d = "right";
     } 
 }
